@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+    <title>The Coolest Quizzz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="#78459E">
+
+    <!-- DIV Container - Para englobar as outras divs, tamanho total da página -->
+    <div id="container">
+
+        <!-- DIV Topo - Para o título e imagens -->
+        <div id="topoTitulo">
+            <img src="imagens/header.png" alt="Topo">
+        </div>
+
+
+        <!-- DIV Perguntas - Para os cards de perguntas -->
+        <div id="PerguntasCaixa">
+
+        <div id="gapFinalInicio"></div>
+
+        <div id="meioPerguntas">
+            <h2>Pergunta 1</h2>
+            <p>Qual o ano de lançamento do Brawl Stars globalmente?</p>
+        </div>
+
+        <div id="gapMeio"></div>
+
+        <div id="meioPerguntas">
+            <h2>Pergunta 2</h2>
+            <p>Se você é noob<br> qual brawler você escolheria?</p>
+        </div>
+
+        <div id="gapMeio"></div>
+
+        <div id="meioPerguntas">
+            <h2>Pergunta 3</h2>
+            <p>Qual o main do <br> Tufa, melhor jogador de Piper?</p>
+        </div>
+
+        <div id="gapFinalInico"></div>
+
+        </div>
+
+        <!-- DIV Labels - Para as labels informativas de escolha -->
+        <div id="AlinharEscolhaSuaResposta">
+        <div id="meioLabels">
+            <h3>Escolha sua resposta</h3>
+        </div>
+        <div id="meioLabels">
+            <h3>Escolha sua resposta</h3>
+        </div>
+        <div id="meioLabels">
+            <h3>Escolha sua resposta</h3>
+        </div>    
+        </div>  
+
+        <!-- DIV Selects - Para os menus de select com as respostas -->
+        <div id="AlinharSelects">
+            <div id="meioSelects">
+                <Select id="PerguntasSelect1">
+                    <option value="">Respostas</option>
+                    <option value="0">2017</option>
+                    <option value="1">2018</option>
+                    <option value="0">2019</option>
+                </Select>
+            </div>
+    
+            <div id="meioSelects">
+                <Select id="PerguntasSelect2">
+                    <option value="">Respostas</option>
+                    <option value="0">Colt</option>
+                    <option value="0">Stu</option>
+                    <option value="1">Edgar</option>
+                </Select>
+            </div>
+    
+            <div id="meioSelects">
+                <Select id="PerguntasSelect3">
+                    <option id="opcao">Respostas</option>
+                    <option value="1">Piper</option>
+                    <option value="0">Dynamike</option>
+                    <option value="0">Mortis</option>
+                </Select>
+            </div>
+        </div>
+
+
+        <!-- DIV Resultado - Para a pontuação, resultado e botão de gerar pontos -->
+
+        
+        
+        <div id="baixoResultado">
+
+            
+            <div id="input">
+                <img id="direita" src="Imagens/icone-direita.png" alt="I">
+
+                <label style="color: aliceblue;">Resultado</label> 
+                <input id="Resultado" readonly>
+
+                <button onclick="MostraValorSelect()">Sua pontuação</button>
+
+                <img id="esquerda" src="Imagens/icone-esquerda.png" alt="i">
+            </div>
+            
+        </div>
+
+    </div>
+
+    <script src="file.js"></script>
+
+</body>
+</html>
